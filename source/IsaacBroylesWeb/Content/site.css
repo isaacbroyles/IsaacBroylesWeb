@@ -2,3 +2,20 @@
 {
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
+
+.header
+{
+    padding: 1.2em 0;
+    padding-top: 1.2em;
+    padding-right: 0px;
+    padding-bottom: 1.2em;
+    padding-left: 0px;
+    color: #575e5b;
+}
+
+.banner
+{
+    height: 414px;
+    width: 100%;
+    background: url(header.png); 
+}

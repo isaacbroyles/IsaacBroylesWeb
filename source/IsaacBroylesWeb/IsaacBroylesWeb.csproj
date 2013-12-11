@@ -65,6 +65,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\header.png" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
