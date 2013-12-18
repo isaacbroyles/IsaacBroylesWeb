@@ -21,6 +21,10 @@ namespace IsaacBroylesWeb
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("Index", "", new { controller = "Home", action = "Index" });
+
+            routes.MapRoute("Get", "{title}", new { controller = "Post", action = "Detail", title = "" });
+
             routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
