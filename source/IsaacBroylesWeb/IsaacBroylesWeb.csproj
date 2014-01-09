@@ -73,6 +73,9 @@
     <Content Include="Content\header.png" />
     <Content Include="Content\images\fuckitimgoingdeep_avatar.jpg" />
     <Content Include="Content\site.css" />
+    <Content Include="favicon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
