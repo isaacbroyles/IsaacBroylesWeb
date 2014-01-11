@@ -18,7 +18,7 @@ namespace IsaacBroylesWeb.Repositories
             }
             catch (System.Exception)
             {
-                return new Post();
+                throw;
             }
         }
 
