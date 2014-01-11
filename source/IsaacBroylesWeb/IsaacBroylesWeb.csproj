@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="Content\markdown\posts\sample.md" />
+    <Content Include="Content\markdown\posts\sample.md" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
